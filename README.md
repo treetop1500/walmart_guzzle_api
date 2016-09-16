@@ -19,7 +19,7 @@ To make this more portable and service oriented, register the class as a service
     // services.yml
     services:
       guzzle_walmart:
-        class: Treetop1500\Util\GuzzleWalmart
+        class: MyBundle\GuzzleWalmart
         arguments: [%walmart_api_key%]
 
 #Usage#
